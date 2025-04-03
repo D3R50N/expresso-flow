@@ -1,0 +1,26 @@
+{
+  "name": "expresso-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3R50N/expresso-flow.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "telegram",
+    "flow",
+    "whatsapp"
+  ],
+  "author": "D3R50N",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D3R50N/expresso-flow/issues"
+  },
+  "homepage": "https://github.com/D3R50N/expresso-flow#readme",
+  "description": ""
+}
