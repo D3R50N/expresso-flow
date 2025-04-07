@@ -2,6 +2,7 @@
   "name": "expresso-flow",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,11 @@
     "url": "https://github.com/D3R50N/expresso-flow/issues"
   },
   "homepage": "https://github.com/D3R50N/expresso-flow#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
 }
