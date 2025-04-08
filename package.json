@@ -2,7 +2,7 @@
   "name": "expresso-flow",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,5 +29,8 @@
     "body-parser": "^2.2.0",
     "dotenv": "^16.4.7",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
   }
 }
