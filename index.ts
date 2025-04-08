@@ -1,7 +1,11 @@
 import Facebook from "./core/facebook";
-import Telegram from './core/telegram';
+import Telegram from "./core/telegram";
 import ExpressoFlow from "./lib/ef";
-import FacebookPage from './lib/facebook-page';
+import FacebookPage from "./lib/facebook-page";
 
-export { Facebook, FacebookPage, Telegram };
+const FB = Facebook;
+const TG = Telegram;
+const FBP = FacebookPage;
+
+export { Facebook, FacebookPage, FB, FBP, Telegram, TG };
 export default ExpressoFlow;

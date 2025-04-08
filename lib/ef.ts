@@ -1,18 +1,15 @@
 import { Request, Response } from "express";
 
-type RequestType = Request;
-type ResponseType = Response | null;
-
 class ExpressoFlow {
-  private req: RequestType;
-  private res: ResponseType;
+  private req: Request;
+  private res: Response | null;
 
-  constructor(req: RequestType, res: ResponseType) {
+  constructor(req: Request, res: Response | null) {
     this.req = req;
     this.res = res;
   }
 
-  static of(req: RequestType, res: ResponseType = null): ExpressoFlow {
+  static of(req: Request, res: Response | null = null): ExpressoFlow {
     return new ExpressoFlow(req, res);
   }
 

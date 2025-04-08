@@ -1,6 +1,6 @@
 import bodyparser from "body-parser";
 import express, { Request, Response } from "express";
-import { FB } from "./lib/type";
+import { FB } from ".";
 
 const app = express();
 
