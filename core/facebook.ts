@@ -1,3 +1,4 @@
+import { Express } from './../node_modules/@types/express-serve-static-core/index.d';
 // src/services/Facebook.ts
 import axios from "axios";
 import { Request, Response } from "express";
@@ -61,7 +62,7 @@ class Facebook {
     incomingEntries: "fb.incoming_entries",
   };
 
-  public static init(app: any, options: FacebookOptions = {}) {
+  public static init(app: Express, options: FacebookOptions = {}) {
     this.appId = safeValue(options.appId, config.FACEBOOK_APP_ID);
     this.appSecret = safeValue(options.appSecret, config.FACEBOOK_APP_SECRET);
     this.webhookVerify = safeValue(
