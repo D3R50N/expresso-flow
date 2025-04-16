@@ -1,4 +1,4 @@
-import { Express } from './../node_modules/@types/express-serve-static-core/index.d';
+import { Express } from 'express-serve-static-core';
 // src/services/Facebook.ts
 import axios from "axios";
 import { Request, Response } from "express";
